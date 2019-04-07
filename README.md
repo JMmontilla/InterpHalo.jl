@@ -9,10 +9,10 @@ The first argument maps the position along the orbit (0 first point and 1 last p
 
 # H1 family orbit
 
-![H1](https://raw.githubusercontent.com/astrorCoder/InterpHalo.jl/master/H1.png)
+![H1](https://raw.githubusercontent.com/JMmontilla/InterpHalo.jl/master/H1.png)
 
 # H2 family orbit
 
-![H2](https://raw.githubusercontent.com/astrorCoder/InterpHalo.jl/master/H2.png)
+![H2](https://raw.githubusercontent.com/JMmontilla/InterpHalo.jl/master/H2.png)
 
 
