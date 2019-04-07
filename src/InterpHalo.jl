@@ -6,8 +6,8 @@ using JLD, Interpolations
 
 export intH
 
-H1 = load("~/.julia/packages/InterpHalo/src/H1Data.jld")
-H2 = load("~/.julia/packages/InterpHalo/src/H2Data.jld")
+H1 = load("H1Data.jld")
+H2 = load("H2Data.jld")
 
 ORB1 = H1["ORB"]
 T1   = H1["T"]
