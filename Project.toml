@@ -3,6 +3,10 @@ uuid = "cb54fa60-4742-5e5a-aca8-c7344bdb9917"
 authors = ["Jose Manuel <montilla_aero@protonmail.com>"]
 version = "0.1.0"
 
+[deps]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
