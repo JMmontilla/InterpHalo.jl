@@ -5,15 +5,13 @@ module InterpHalo
 using JLD, Interpolations
 
 export intH
-
-H1 = load("H1Data.jld")
-H2 = load("H2Data.jld")
+path = @__DIR__
+H1 = load(path*"/H1Data.jld")
+H2 = load(path*"/H2Data.jld")
 
 ORB1 = H1["ORB"]
-T1   = H1["T"]
 
 ORB2 = H2["ORB"]
-T2   = H2["T"]
 
 intORB1 = interpolate(ORB1, BSpline(Quadratic(Reflect(OnCell()))))
 intORB2 = interpolate(ORB2, BSpline(Quadratic(Reflect(OnCell()))))
