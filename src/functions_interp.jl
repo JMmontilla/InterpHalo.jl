@@ -21,11 +21,11 @@ function intH(x::Real,orb::Real,family::Int)
 
     if family == 1 # H1
         i = 1 + x*(size(ORB1,1)-1)
-        j = 1 + x*(size(ORB1,3)-1)
+        j = 1 + orb*(size(ORB1,3)-1)
         return interpH1(i,2:7,j)
     elseif family == 2 # H2
         i = 1 + x*(size(ORB2,1)-1)
-        j = 1 + x*(size(ORB2,3)-1)
+        j = 1 + orb*(size(ORB2,3)-1)
         return interpH2(i,2:7,j)
     else
         error("last argument has to be either 1 (H1 family) or 2 (H2 family)")
