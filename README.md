@@ -1,6 +1,6 @@
 # InterpHalo
 
-The function is called `intH` and is called with
+The function is `intH` and is called with
 
 ```julia
 intH(x::Real,orb::Real,family::Int) -> Array
@@ -14,5 +14,3 @@ The first argument maps the position along the orbit (0 first point and 1 last p
 # H2 family orbit
 
 ![H2](https://raw.githubusercontent.com/JMmontilla/InterpHalo.jl/master/H2.png)
-
-
